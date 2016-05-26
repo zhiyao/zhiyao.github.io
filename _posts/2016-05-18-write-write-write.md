@@ -4,7 +4,6 @@ title:  "Writing Writing Writing... I am not fond of it"
 date:   2016-05-18 09:35:31 +0800
 categories: writing
 ---
-# Writing Writing Writing... I am not fond of it
 
 Writing has always not been my forte. But I am here to change that starting from today. Even if no one reads this or my writing is so bad, I would start writing ideas and thoughts at least 1 time a week to begin.
 

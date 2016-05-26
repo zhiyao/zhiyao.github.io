@@ -2,6 +2,15 @@
   padding-top: 20px;
   text-align: center;
   color: $header-color;
+  .title {
+    color: $header-color;
+  }
+  .description {
+    color: $header-color;
+    font-family: $read-font-family;
+    font-weight: 300;
+
+  }
 }
 
 .profile-image {
@@ -22,9 +31,15 @@
 
 .list {
   list-style-type: none;
+  margin-left: 0;
   .item {
     float: left;
     margin-right: 20px;
     padding-left: 0;
+    padding-bottom: 5px;
+    &:hover {
+      padding-bottom: 0;
+      border-bottom: 5px solid white;
+    }
   }
 }

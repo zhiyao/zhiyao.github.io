@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/1.5 "Open Sans", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -60,19 +60,17 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
-  text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: color 0.3s ease; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #111; }
 
 /**
  * Blockquotes
@@ -469,6 +467,12 @@ pre {
   padding-top: 20px;
   text-align: center;
   color: #fff; }
+  .hero-home .title {
+    color: #fff; }
+  .hero-home .description {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-weight: 300; }
 
 .profile-image {
   width: 100px;
@@ -485,11 +489,16 @@ pre {
   margin: 7px auto; }
 
 .list {
-  list-style-type: none; }
+  list-style-type: none;
+  margin-left: 0; }
   .list .item {
     float: left;
     margin-right: 20px;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-bottom: 5px; }
+    .list .item:hover {
+      padding-bottom: 0;
+      border-bottom: 5px solid white; }
 
 /**
 * Site footer
@@ -547,3 +556,30 @@ pre {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 28.8px; }
+
+h3 {
+  font-size: 25.6px; }
+
+h4 {
+  font-size: 22.4px; }
+
+h5 {
+  font-size: 19.2px; }
+
+h6 {
+  font-size: 16px; }
+
+p {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  text-rendering: geometricPrecision; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #333; }
