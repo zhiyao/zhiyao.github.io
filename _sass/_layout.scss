@@ -32,7 +32,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $header-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -70,8 +70,8 @@
         }
 
         .trigger {
-            clear: both;
-            display: none;
+          clear: both;
+          display: none;
         }
 
         &:hover .trigger {
@@ -103,7 +103,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .post-list {
