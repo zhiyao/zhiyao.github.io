@@ -19,6 +19,8 @@ markdown: kramdown
 twitter: zhiyao
 github: zhiyao
 
+disqus: kennychan
+
 about: true
 blog: true
 show-tags: true

@@ -20,15 +20,9 @@
         <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
+        {% include nav.html %}
       </div>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
     </nav>
 
   </div>

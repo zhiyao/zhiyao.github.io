@@ -484,6 +484,13 @@ pre {
   color: #fff;
   margin: 7px auto; }
 
+.list {
+  list-style-type: none; }
+  .list .item {
+    float: left;
+    margin-right: 20px;
+    padding-left: 0; }
+
 /**
 * Site footer
 */
