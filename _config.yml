@@ -10,6 +10,8 @@ url: "http://zhiyao.github.io" # the base hostname & protocol for your site
 picture: /assets/images/profile.jpg
 heroBg: /assets/images/polygon-image-bg.jpg
 
+analytics-google: 'UA-7929340-28'
+
 twitter_username: zhiyao
 github_username:  zhiyao
 
